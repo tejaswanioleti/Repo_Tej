@@ -17,8 +17,6 @@ public class First {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
 		System.out.println("Title:"+driver.getTitle());
-		driver.findElement(By.linkText("My Account")).click();
-		driver.findElement(By.linkText("Register")).click();
 		
 		
 
