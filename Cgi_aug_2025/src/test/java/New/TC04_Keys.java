@@ -28,5 +28,6 @@ public class TC04_Keys {
 		}
 		driver.findElement(By.name("password")).sendKeys("admin123");
 		driver.findElement(By.name("username")).sendKeys(Keys.ENTER);
+		driver.quit();
 	}
 }
